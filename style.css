@@ -1,0 +1,84 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        background-color: hsl(47, 88%, 63%);
+        background-color: hsl(47, 88%, 63%);
+        width: 1440px;
+    }
+
+    main{
+        width: 25%;
+        height: 455px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 8px 8px 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: Figtree;
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    img:first-child{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    img:first-child + p{
+        width: 80px;
+        box-sizing: border-box;
+        padding: 4px;
+        background-color: hsl(47, 88%, 63%);
+        border-radius: 3px;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    img:first-child + p + p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    img:first-child + p + p + a{
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+        font-size: 22px;
+    }
+
+    img:first-child + p + p + a:hover{
+        color: hsl(47, 88%, 63%);
+
+    }
+    
+    img:first-child + p + p + a + p{
+        font-size: 14px;
+        color: hsl(0, 0%, 50%);
+    }
+
+    img:first-child + p + p + a + p + img{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        top: 5px;
+    }
+
+    p:last-child{
+        position: relative;
+        top: -9%;
+        font-size: 14px;
+        left: 40px;
+        font-weight: 800;
+    }
+
+
+    @media screen and (max-width: 375px){
+        main{
+            width: 90%;
+        }
+    }
